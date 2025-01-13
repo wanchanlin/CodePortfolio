@@ -275,7 +275,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 414px) {
     iframe {
         border-width: 0;
     }
