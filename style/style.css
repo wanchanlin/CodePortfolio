@@ -238,8 +238,14 @@ footer {
     top: 70%;
 }
 
+
 #menuToggle {
     display: none;
+}
+
+.crop{
+    width: 100vw;
+    overflow: hidden;
 }
 
 /* ========== Responsive Design ========== */
@@ -273,6 +279,7 @@ footer {
         margin-top: 10%;
      
     }
+   
 }
 
 @media only screen and (max-width: 414px) {
@@ -285,6 +292,11 @@ footer {
 
     .partner-icons {
         width: 300%;
+
+    }
+    .crop{
+        width: 100%;
+        object-fit: cover;
     }
 
     .btn {
