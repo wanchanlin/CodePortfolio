@@ -121,6 +121,7 @@ nav {
     background-color: #FFDD2D;
 }
 
+
 .footerbar {
     align-items: center;
     display: flex;
@@ -238,7 +239,6 @@ footer {
     top: 70%;
 }
 
-
 #menuToggle {
     display: none;
 }
@@ -247,7 +247,6 @@ footer {
     width: 100vw;
     overflow: hidden;
 }
-
 /* ========== Responsive Design ========== */
 @media only screen and (max-width: 768px) {
     iframe {
@@ -279,7 +278,6 @@ footer {
         margin-top: 10%;
      
     }
-   
 }
 
 @media only screen and (max-width: 414px) {
@@ -292,11 +290,6 @@ footer {
 
     .partner-icons {
         width: 300%;
-
-    }
-    .crop{
-        width: 100%;
-        object-fit: cover;
     }
 
     .btn {
