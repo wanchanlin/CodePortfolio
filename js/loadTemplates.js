@@ -13,7 +13,9 @@ function loadTemplate(templateId, templatePath) {
 document.addEventListener('DOMContentLoaded', function() {
     loadTemplate('nav-placeholder', 'templates/nav.html');
     loadTemplate('footer-placeholder', 'templates/footer.html');
+    loadTemplate('contactform-placeholder', 'templates/contactform.html');
 });
+
 
 function initializeNavToggle() {
     const navToggle = document.querySelector("#navToggle");
