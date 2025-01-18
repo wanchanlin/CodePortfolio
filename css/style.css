@@ -82,12 +82,12 @@ label {
     padding: 0 1rem;
 }
 
-ul {
+footer ul , nav ul {
     list-style-type: none;
     padding: 0;
 }
 
-li {
+footer li , nav li {
     display: inline-block;
     padding: 0 1.25rem;
 }
@@ -175,6 +175,7 @@ nav li, nav h2 {
 
 /* ========== Footer ========== */
 footer {
+    
     background-color: #FFDD2D;
     padding-top: 2rem;
 }
