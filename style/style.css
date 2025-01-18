@@ -71,7 +71,7 @@ label {
 /* ========== Navigation ========== */
 .containerbg { 
     background: #FFDD2D;
-    height: 2.5rem;
+    height: 3rem;
 }.container {
     display: flex;
     justify-content: space-between;
