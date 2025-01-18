@@ -69,11 +69,10 @@ label {
 }
 
 /* ========== Navigation ========== */
-.containerbg {
+.containerbg { 
     background: #FFDD2D;
-}
-
-.container {
+    height: 2.5rem;
+}.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
