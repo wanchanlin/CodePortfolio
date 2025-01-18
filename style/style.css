@@ -258,7 +258,7 @@ footer {
 }
 
 .crop{
-    width: 100vw;
+    max-width: 77.875rem;
     overflow: hidden;
 }
 /* ========== Responsive Design ========== */
@@ -292,6 +292,9 @@ footer {
         margin-top: 10%;
      
     }
+    .crop{
+        max-width: 90vw;
+    }
 }
 
 @media only screen and (max-width: 414px) {
@@ -324,7 +327,10 @@ footer {
             "project3";
         grid-template-columns: 1fr;
     }
-
+    .crop{
+        max-width: 90vw;
+       
+    }
     #project1 {
         grid-area: project1;
     }
