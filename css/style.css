@@ -12,6 +12,9 @@ body {
     padding: 0;
     line-height: 1.6;
 }
+section{
+margin-bottom:3rem;
+}
 .container {
     width: 80%;
     margin: auto;
@@ -45,12 +48,12 @@ iframe {
 
 /* ========== Typography ========== */
 h2 {
-    font-size: 3rem;
+   
     text-align: center;
 }
 
 h3 {
-    font-size: 1.875rem;
+   
     line-height: 120%;
     margin: 0;
 }
@@ -99,6 +102,16 @@ li a {
 
 li:hover a {
     text-decoration: underline;
+}
+
+.card {
+    background: linear-gradient(to bottom, #ffffffaf, #ffffff00); 
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid #ffffff;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
 }
 /* ==========  Mobile Toggle ========== */
 
@@ -207,6 +220,12 @@ footer {
     grid-template-columns: 1fr 1fr;
 }
 
+.grid-container-skill {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .project {
     width: 100%;
 }
@@ -287,6 +306,11 @@ footer {
     .grid-container {
         display: grid;
         gap: 1rem;
+        grid-template-columns: auto auto;
+    }
+    .grid-container-skill {
+        display: grid;
+        gap:0rem; 
         grid-template-columns: auto auto;
     }
     .project {
