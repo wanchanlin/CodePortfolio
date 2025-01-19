@@ -54,6 +54,10 @@ iframe {
     width: 100%;
     border-width: 0;
 }
+nav {
+       padding: 1rem;
+
+}
 
 /* ========== Typography ========== */
 h2 {
@@ -149,13 +153,12 @@ nav li:hover a {
     display: none;
 }
 
-nav {
-    padding: 0.5em;
-}
+
 
 .navcolour {
     background-color: #FFDD2D;
 }
+
 
 
 .footerbar {
@@ -403,8 +406,7 @@ footer {
     }
 
     nav {
-        height: 0;
-        width: 100%;
+        padding: 0 0 1rem 0;
         overflow: hidden;
         transition: 250ms height ease-in-out;
     }
