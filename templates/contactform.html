@@ -10,22 +10,29 @@
 
         <div class="infosection">
             <h3>Socials</h3>
-            <a class="socialLink" href="https://www.linkedin.com/in/wanchanlin/">LinkedIn </a>
-            <a class="socialLink" href="https://github.com/wanchanlin">GitHub </a>
+            <div class="socialmedia-container">
+                <a href="https://www.linkedin.com/in/wanchanlin/">
+                    <img class="socialmedia-icon" src="images/linkedin.svg" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/wanchanlin">
+                    <img class="socialmedia-icon" src="images/github.svg" alt="GitHub">
+                </a>
+            </div>
+
+
         </div>
 
     </div>
     <div class="grid-item">
-        <form class="comment"  action="https://formspree.io/f/xannrvob"
-        method="POST">
+        <form class="comment" action="https://formspree.io/f/xannrvob" method="POST">
             <label for="name">Name</label>
             <input type="text" id="name" name="name">
             <label for="email">Email</label>
             <input type="email" id="email" name="email">
             <label for="message">Message</label>
-            <textarea id="message" name="message">Hey... say something!</textarea>
+            <textarea id="message" name="message" placeholder="Hey... say something!"></textarea>
             <button class="btn" type="submit">Send</button>
-          
+
         </form>
     </div>
 </div>

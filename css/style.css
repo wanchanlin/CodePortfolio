@@ -283,14 +283,19 @@ footer {
     width: 3.375rem;
 }
 
-.socialmedia-icon {
-    width: 2rem;
+.socialmedia-container {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem; /* Adjust the gap between icons as needed */
+    justify-content: left; /* Center the icons horizontally */
+    align-items: center; /* Center the icons vertically */
 }
 
-.socialLink {
-    font-size: 1rem;
-    text-decoration: underline;
+.socialmedia-icon {
+    width: 2rem; 
+
 }
+
 
 /* ========== Sticky Section ========== */
 .sticky {
