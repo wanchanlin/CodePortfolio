@@ -180,8 +180,37 @@ nav li, nav h2 {
 .logo {
     width: 10rem;
 }
+/* ========== comppanylogo ========== */
+/* Container for the logos */
+.logo-container {
+    overflow: hidden; /* Hide overflow content */
+    white-space: nowrap; /* Prevent line breaks */
+    width: 100%; /* Full width of the container */
+}
 
 
+.logo-marquee {
+    display: inline-block; /* Ensure the container is inline-block for animation */
+    animation: moveLogos 20s linear infinite; /* Apply the animation */
+}
+
+.companylogo {
+    width: auto;
+    height: 46px;
+    margin-right: 2rem; /* Adjust the margin between logos as needed */
+    display: inline-block; /* Ensure logos are inline-block */
+}
+
+
+/* Keyframes for the moving animation */
+@keyframes moveLogos {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
 
 /* ========== Buttons ========== */
 .btn {
@@ -346,6 +375,11 @@ footer {
     .crop{
         max-width: 90vw;
     }
+
+    .companylogo{
+        height: 38px;
+        margin-right: 1rem;
+    }
 }
 
 @media only screen and (max-width: 414px) {
@@ -463,6 +497,9 @@ footer {
         width: 100%;
         height: 170%;
     }
-
+    .companylogo{
+        height: 32px;
+        margin-right: 1rem;
+    }
     
 }
