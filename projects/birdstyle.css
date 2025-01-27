@@ -1,19 +1,4 @@
-body {
-    background-color: #44cb4d;
-    display: flex;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 100vh;
-    font-family: sans-serif;
-    text-align: center;
 
-
-    cursor: none;
-    overflow: hidden;
-}
 
 .promo {
     margin-top: 5px;
@@ -31,14 +16,7 @@ body {
     fill: #662F0D;
 }
 
-h2 {
-    color: #2d2b2b;
-    font-size: .5rem;
-    margin: 5px 0 0 0;
-    padding: 10px 30px;
-    font-size: 60px;
-    background: #e0d619;
-}
+
 
 span {
     margin-top: 5px;
