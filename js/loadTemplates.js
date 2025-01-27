@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
 function initializeNavToggle() {
     const navToggle = document.querySelector("#navToggle");
     const navClosedIcon = document.querySelector("#navClosed");
