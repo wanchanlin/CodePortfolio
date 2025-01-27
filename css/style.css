@@ -69,6 +69,49 @@ nav {
 
 }
 
+/* Styles for the tabs */
+.tabs {
+ 
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    margin:0 2rem;
+}
+
+.tablinks {
+    color: #f4f4f4;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tablinks:hover {
+    background-color:#878787;
+    border-radius: .5rem;
+}
+
+.tablinks.active {
+    background-color:#68f522;
+    color: #303030;
+    border-radius: 0.5rem;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.tabcontent .grid-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
 /* ========== Typography ========== */
 h2 {
    
@@ -341,6 +384,7 @@ footer {
 
 /* Blinking cursor effect */
 .typing-cursor {
+    color:#eef522 ;
     display: inline-block;
     animation: blink 1s step-end infinite;
 }
