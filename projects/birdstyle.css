@@ -1,4 +1,28 @@
+/* Container for the SVG */
+.svg-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/* Responsive SVG */
+#parroty {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Optional: Set a max width for the SVG */
+}
+
+/* Additional styles for the parrot animation */
+.parrot .st1 {
+    fill: #FFD700; /* Example color */
+    transition: transform 0.3s ease;
+}
+
+.parrot:hover .st1 {
+    transform: scale(1.1);
+}
 
 .promo {
     margin-top: 5px;
