@@ -8,6 +8,12 @@ body {
     color: #5fab39;
 }
 
+h2{
+    color: #5fab39;
+}
+p{
+    color: #d4e7cb;
+}
 section{
 margin-bottom:3rem;
 }
@@ -122,7 +128,7 @@ nav li:hover a {
     background: linear-gradient(to bottom, #1c1c1caf, #5e595900); 
     border-radius: 0.5rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    border: 3px solid #ffffff;
+    border: 3px solid  #68f522;
     margin: 1rem;
     padding: 1rem;
     text-align: center;
@@ -213,6 +219,7 @@ nav li, nav h2 {
         transform: translateX(-50%);
     }
 }
+
 
 /* ========== Buttons ========== */
 .btn {
@@ -331,7 +338,20 @@ footer {
 }
 
 
-/* ========== Sticky Section ========== */
+/* Blinking cursor effect */
+.typing-cursor {
+    display: inline-block;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
 
 
 #menuToggle {
