@@ -202,6 +202,8 @@ nav li, nav h2 {
 }
 
 
+
+
 /* Keyframes for the moving animation */
 @keyframes moveLogos {
     0% {
@@ -268,6 +270,8 @@ footer {
     gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+
 
 .project {
     width: 100%;
@@ -406,8 +410,8 @@ footer {
         grid-template-areas:
             "project1"
             "project2"
-            "project4"
-            "project3";
+            "project3"
+            "project4";
         grid-template-columns: 1fr;
     }
     .crop{
@@ -500,6 +504,9 @@ footer {
     .companylogo{
         height: 32px;
         margin-right: 1rem;
+    }
+    .alignment{
+        margin:auto;
     }
     
 }
