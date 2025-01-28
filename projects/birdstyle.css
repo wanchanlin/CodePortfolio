@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
 }
-
 /* Responsive SVG */
 #parroty {
     width: 100%;
@@ -72,12 +71,7 @@ span {
     transform-origin: 50% 50%;
 }
 
-.Eye1,
-.Eye2 {
-    animation: blink 5s infinite;
-    transform-origin: 0px;
-    transform-box: fill-box;
-}
+
 
 .Wing_Left {
     animation: shake-left-wing 500ms infinite;
@@ -251,4 +245,12 @@ span {
     100% {
         transform: scale(0.9);
     }
+}
+@media screen and (max-width: 414px) {
+    #parroty {
+        width: 100%;
+        height: auto;
+        max-width: 414px; /* Optional: Set a max width for the SVG */
+    }
+    
 }
