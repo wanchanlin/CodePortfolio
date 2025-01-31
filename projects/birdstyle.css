@@ -39,6 +39,14 @@
     fill: #662F0D;
 }
 
+/* ...existing code... */
+.special-area  {
+padding: 2rem;
+    border-radius: 1rem;
+background-color:  rgb(67, 67, 67); /* Example style */
+}
+/* ...existing code... */
+
 
 
 span {
@@ -66,7 +74,7 @@ span {
 }
 
 #shadow {
-    fill: #2f5703;
+    fill: #2d2e2c;
     animation: shadow 1.75s infinite;
     transform-origin: 50% 50%;
 }
