@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     loadTemplate('nav-placeholder', '../templates/nav.html');
     loadTemplate('footer-placeholder', '../templates/footer.html');
     loadTemplate('contactform-placeholder', '../templates/contactform.html');
+    loadTemplate('contactAnimation-placeholder', '../templates/contactAnimation.html');
 });
 
 function openService(evt, serviceName) {
